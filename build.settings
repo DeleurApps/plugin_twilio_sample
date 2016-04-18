@@ -1,0 +1,25 @@
+settings =
+{
+	orientation = {
+		default = "portrait", 
+		supported = { "portrait" }
+	},
+
+	iphone =
+	{
+		plist =
+		{
+			-- UIApplicationExitsOnSuspend = true, -- default is false
+		},
+	},
+
+	plugins =
+	{
+		-- key is the name passed to Lua's 'require()'
+		["plugin.twilio"] =
+		{
+			-- required
+			publisherId = "com.deleurapps",
+		},
+	},
+}
