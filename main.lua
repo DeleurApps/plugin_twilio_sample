@@ -32,7 +32,7 @@ local function networkListener( event )
 end
 
 --Url for requesting the capability token
-local tokenServiceUrl = "CAPABILITY_REQUEST_URL"
+local tokenServiceUrl = "http://twilio.springmorning.nl/get_token.php?client="
 
 local buttons = {}
 local width = 200

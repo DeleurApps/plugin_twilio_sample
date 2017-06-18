@@ -9,7 +9,7 @@ settings =
 	{
 		plist =
 		{
-			-- UIApplicationExitsOnSuspend = true, -- default is false
+			NSMicrophoneUsageDescription = "String value explaining to the user how the app uses this data."
 		},
 	},
 
